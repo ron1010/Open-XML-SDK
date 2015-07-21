@@ -39,6 +39,12 @@
     <DocumentationFile>build\OpenXmlSdkLib\Release\DocumentFormat.OpenXml.XML</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Open-XML-SDK.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -242,6 +248,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Open-XML-SDK.snk" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
