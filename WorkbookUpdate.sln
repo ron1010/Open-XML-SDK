@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-XML-SDK", "Open-XML-SDK.csproj", "{E5D39C6A-9067-477E-B0D3-A9419B86E6E5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.IO.Packaging", "System.IO.Packaging\System.IO.Packaging.csproj", "{4C88A3AD-1241-4A04-854B-8372DF29828D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkbookUpdate", "WorkbookUpdate\WorkbookUpdate.csproj", "{606C5F69-9B70-4872-B97D-B32DFC296B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-XML-SDK", "..\Open-XML-SDK\Open-XML-SDK.csproj", "{E5D39C6A-9067-477E-B0D3-A9419B86E6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.IO.Packaging", "..\Open-XML-SDK\System.IO.Packaging\System.IO.Packaging.csproj", "{4C88A3AD-1241-4A04-854B-8372DF29828D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5D39C6A-9067-477E-B0D3-A9419B86E6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5D39C6A-9067-477E-B0D3-A9419B86E6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D39C6A-9067-477E-B0D3-A9419B86E6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,10 +27,6 @@ Global
 		{4C88A3AD-1241-4A04-854B-8372DF29828D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C88A3AD-1241-4A04-854B-8372DF29828D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C88A3AD-1241-4A04-854B-8372DF29828D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{606C5F69-9B70-4872-B97D-B32DFC296B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
